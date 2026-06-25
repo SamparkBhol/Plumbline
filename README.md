@@ -6,6 +6,8 @@ You hand it an answer and the sources that answer was supposed to come from. It 
 
 It runs locally and it is deterministic. No api keys, nothing leaves the process in the default engine, and the same answer checked twice gives the same verdict. That last part matters more than it sounds. Most tools in this space hand the output to a hosted model and ask it to grade itself, which costs money on every call, sends your data to someone else, and quietly disagrees with itself between runs.
 
+----- Still being built------
+
 ## The idea in one example
 
 ```ts
