@@ -1,0 +1,10 @@
+export { verify } from "./verify.js";
+export { guard } from "./guard.js";
+export type { Guarded, GuardOpts } from "./guard.js";
+export { providers } from "./models/registry.js";
+export { LexEmbedder, TransformerEmbedder } from "./retrieve/embed.js";
+export { LexNli, TransformerNli } from "./entail/nli.js";
+export { decompose } from "./text/claims.js";
+export { chunkSources, asSources } from "./chunk.js";
+export { defaults, settle } from "./config.js";
+export * from "./types.js";
