@@ -128,7 +128,3 @@ npm run build
 ```
 
 The built in engine makes the suite fully reproducible. Every step except the model call is a pure function, tested against fixtures that plant hallucinations, negations, paraphrases, and partial truths and check that each one lands where it should.
-
-## License
-
-MIT
